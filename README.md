@@ -1,106 +1,85 @@
-# Amazon Clone - Frontend Web Project 🛒📦
+# Amazon Clone - Frontend Web Project 🛒
 
-> **Course:** Introduction to Information and Communication Technology (IICT / ICT)  
-> **Level:** 1st Semester Project  
-> **Technologies:** HTML5, CSS3, Font Awesome  
+> **Course:** Introduction to Information and Communication Technology (ICT)
+> **Semester:** 1st Semester
+> **Technologies:** HTML5, CSS3, JavaScript
 
 ---
 
 ## 📖 Overview
 
-This project is a front-end replica of the **Amazon E-Commerce Website** developed using pure **HTML5**, **CSS3** and **JavaScript"" . It was created as the term project for the 1st Semester course *Introduction to Information and Communication Technology (ICT)* to demonstrate core web development concepts, responsive box models, flexbox layouts, semantic markup, and UI/UX design replication.
+This project is a front-end clone of the **Amazon E-Commerce Website**, built using pure **HTML5**, **CSS3**, and **JavaScript**. It was developed as a 1st Semester term project for the course *Introduction to Information and Communication Technology (ICT)* to demonstrate core web development concepts including responsive layouts, flexbox, semantic markup, and UI replication.
 
 ---
 
-## 🎨 Key Features
+## 🎨 Features
 
-1. **Navigation Bar (Header):**
-   - Official Amazon logo with hover border effect.
-   - Delivery location selector (*Deliver to Pakistan*).
-   - Category-wise search bar with dropdown filters and search icon.
-   - Language selector dropdown (EN, USD).
-   - Account, Lists, Returns & Orders, and Shopping Cart counter.
+1. **Navigation Bar (Header)**
+   - Amazon logo with hover border effect
+   - Delivery location selector
+   - Category-wise search bar with dropdown
+   - Account, Cart, Returns & Orders links
 
-2. **Secondary Sub-Navbar:**
-   - Quick navigation links: *Today's Deals*, *Customer Service*, *Registry*, *Gift Cards*, and *Sell*.
-   - Shortcut promotion link (*Shop deals in Electronics*).
+2. **Sub-Navbar**
+   - Quick links: *Today's Deals*, *Customer Service*, *Registry*, *Gift Cards*, *Sell*
 
-3. **Hero Section:**
-   - Amazon prominent background banner with regional shopping announcement card.
+3. **Hero Section**
+   - Full-width Amazon banner with regional shopping card
 
-4. **Product Showcase Grid:**
-   - Multi-column card layout displaying 12 curated product categories:
-     - Electronics & Gadgets
-     - Fashion & Clothing
-     - Home, Living & Kitchen
-     - Health & Personal Care
-     - Beauty & Grooming
-     - Gaming & Toys
-   - High-quality product thumbnails with *"See More"* interaction links.
+4. **Product Showcase Grid**
+   - 12 product category cards with thumbnails and *"See More"* links
+   - Categories: Electronics, Fashion, Home & Kitchen, Health, Beauty, Gaming & Toys
 
-5. **Dedicated Sign-In Page (`login.html`):**
-   - Clean, centered Amazon login card with authentic styling.
-   - Form fields for email/mobile phone and password with input focus effects.
-   - Links to *Conditions of Use* and *Privacy Notice*.
-   - One-click redirection back to the homepage.
+5. **Sign-In Page (`login.html`)**
+   - Amazon-styled login form with email and password fields
+   - Links to Conditions of Use and Privacy Notice
 
-6. **Comprehensive Multi-Tier Footer:**
-   - Smooth *"Back to the top"* anchor button.
-   - Four detailed informational columns (*Get to Know Us*, *Make Money with Us*, *Amazon Payment Products*, *Let Us Help You*).
-   - Multi-currency and localized language selection bar.
-   - Extended subsidiary directory (`page3.html`) for Amazon Global Services (*AWS*, *Audible*, *Goodreads*, *IMDb*, *Zappos*, etc.).
+6. **Footer**
+   - *"Back to top"* button
+   - Four info columns: *Get to Know Us*, *Make Money with Us*, *Amazon Payment Products*, *Let Us Help You*
+   - Amazon Global Services page (`page3.html`): AWS, Audible, IMDb, Goodreads, Zappos, etc.
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## 🛠️ Technologies Used
 
-- **HTML5:** Semantic page layout, forms, inputs, dropdown selectors, image embedding.
-- **CSS3:** Flexbox for modern alignment, CSS Grid, Box Model, pseudo-classes (`:hover`, `:focus`), background positioning, border transitions.
-- **Font Awesome 6.4:** Vector iconography for cart, location, search, and navigation icons.
+- **HTML5** — Semantic structure, forms, inputs, dropdowns
+- **CSS3** — Flexbox, Box Model, hover effects, transitions
+- **JavaScript** — Form handling and interactivity
 
 ---
 
 ## 📂 Project Structure
 
-```text
-├── index.html            # Main Amazon Homepage
-├── login.html            # Amazon Sign-in / Login Authentication page
-├── page2.html            # Detailed Products Showcase & Category Grid
-├── page3.html            # Amazon Global Services & Extended Footer
-├── pics/                 # Images, icons, logos, and banners
-│   ├── amazon_logo.png
-│   ├── hero_image.jpg
-│   ├── box1_image.jpg - box12_image.jpg
-│   └── Fuji_Dash_Electronics_1x.jpg
-├── open_in_browser.bat   # 1-Click launcher for Windows
-├── .gitignore            # Git ignore configuration
-└── README.md             # Project documentation
-```
+Amazon_Project/
+├── index.html # Main homepage
+├── login.html # Sign-in page
+├── page2.html # Product showcase
+├── page3.html # Amazon Global Services / Footer links
+├── pics/ # Images, logos, banners
+
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 How to Run
 
-No compilation, local servers, or package installations are required!
+No installation needed!
 
-### Method 1: Direct Double Click (Recommended)
-1. Navigate to the project directory.
-2. Double click **`index.html`** (or **`open_in_browser.bat`**).
-3. The project will instantly open in your default browser (Google Chrome, Microsoft Edge, Brave, Firefox, etc.).
+1. Download or clone the project folder
+2. Double-click **`index.html`**
+3. Opens directly in any browser (Chrome, Edge, Firefox, Brave)
 
-### Method 2: Open with VS Code Live Server
-1. Open the project folder in **Visual Studio Code**.
-2. Right-click on **`index.html`** and select **"Open with Live Server"**.
+> Or use **VS Code Live Server** — right-click `index.html` → *Open with Live Server*
 
 ---
 
-## 👨‍💻 Project Authors & Contributors
+## 👨‍💻 Team Members
 
-| Name | Roll Number | Role / Contribution | GitHub Profile |
-| :--- | :--- | :--- | :--- |
-| **[Enter Member 1 Name]** | `[Roll Number 1]` | Navbar, Header, Hero Section & Styling | [@username](https://github.com/) |
-| **[Enter Member 2 Name]** | `[Roll Number 2]` | Product Grid, Sign-In Page & Footer | [@username](https://github.com/) |
+| Name | Role |
+| :--- | :--- |
+| Muhammad Uzair Hussain | Navbar, Header, Hero Section |
+| Usman Ali | Product Grid, Sign-In Page |
+| Muqarrab Mustafa | Footer, Global Services Page |
 
-> **Course:** Introduction to Information and Communication Technology (ICT)  
-> **Semester:** 1st Semester Project  
-> **Department:** Department of Computer Science / Software Engineering
+> **Department:** Computer Science
+> **University:** FAST NUCES

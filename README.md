@@ -17,17 +17,17 @@ Delivery location selector
 Category-wise search bar with dropdown
 Account, Cart, Returns & Orders links
 Sub-Navbar
-Quick links: Today's Deals, Customer Service, Registry, Gift Cards, Sell
+Quick links: Today’s Deals, Customer Service, Registry, Gift Cards, Sell
 Hero Section
 Full-width Amazon banner with regional shopping card
 Product Showcase Grid
-12 product category cards with thumbnails and "See More" links
+12 product category cards with thumbnails and “See More” links
 Categories: Electronics, Fashion, Home & Kitchen, Health, Beauty, Gaming & Toys
 Sign-In Page (login.html)
 Amazon-styled login form with email and password fields
 Links to Conditions of Use and Privacy Notice
 Footer
-"Back to top" button
+“Back to top” button
 Four info columns: Get to Know Us, Make Money with Us, Amazon Payment Products, Let Us Help You
 Amazon Global Services page (page3.html): AWS, Audible, IMDb, Goodreads, Zappos, etc.
 🛠️ Technologies Used
@@ -40,8 +40,7 @@ Amazon_Project/
 ├── login.html       # Sign-in page
 ├── page2.html       # Product showcase
 ├── page3.html       # Amazon Global Services / Footer links
-├── pics/            # Images, logos, banners
-└── README.md        # Project documentation
+└── pics/            # Images, logos, banners
 🚀 How to Run
 
 No installation needed!
@@ -58,5 +57,5 @@ Muhammad Uzair Hussain	Navbar, Header, Hero Section
 Usman Ali	Product Grid, Sign-In Page
 Muqarrab Mustafa	Footer, Global Services Page
 
-Department: Computer Science 
+Department: Computer Science
 University: FAST NUCES

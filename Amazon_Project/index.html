@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+body{
+    margin: 00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* box1 of black taskbar */
+.taskbarblack{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+.box1{
+   width: 100px;
+   height: 60px;
+}
+.amazonpic{
+    background-image: url(pics/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+/* box2 of black taskbar */
+.box2{
+    height: 60px;
+    width: 100px;
+}
+.location{
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(238, 238, 238);
+   
+}
+.location2{
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+    margin-left: 3px;
+    display: flex;
+
+}
+
+/* box3 of black taskbar */
+.box3{
+text-align: center;
+height: 60px;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.select{
+    margin-top: 0px;
+    background-color: rgb(235, 226, 228);
+    border: none;
+    width: 45px;
+    height: 40px;
+    margin-left: 2px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.searchbar{
+    border: none;
+    width: 580px;
+    height: 38px;
+    font-size: 17px;
+    /* border-top-right-radius: 5px;
+border-bottom-right-radius: 5px; */
+}
+.searchicon{
+    background-color: rgb(194, 255, 50);
+    height: 40px;
+    width: 45px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.language{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0f1111;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.box5{
+     height: 60px; 
+}
+.signin1{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.signin2{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.box6{
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0f1111;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.orders{
+    margin-top: 8px ;
+    font-size: 0.9rem;
+}
+.box7{
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0f1111;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 22px;
+    display: flex;
+}
+.hhh{
+    margin-left: 5px;
+}
+.bar2{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.text p{
+    display: inline;
+    color: white;
+  font-size: 0.85rem; 
+  margin-left: 15px ;
+}
+.text{
+    width: 70%;
+}
+.shopdeal{
+    font-weight: 700;
+    font-size: 0.88rem;
+}
+.herosec{
+    background-image: url(pics/hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  align-items: flex-end;
+}
+.white{
+    background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    font-size: 14px;
+width: 80%;
+margin-bottom: 20PX;
+}
+.white a{
+    color: #007185;
+}
+/* .flag{
+    height: 10px;
+} */
+/* .shopping{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+gap: 10px;}
+
+.shopping1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+gap: 10px;
+
+}
+
+.box11{
+    width: 23%;
+    background-color: white;
+     height: 420px;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+        } */
+        .row{
+    height: 350px;
+  background-color: lightgray;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.murtaza{
+    height: 20px;
+    background-color: white;
+}
+
+        .parent{
+width: 25%;
+height: 340px;
+background-color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+gap: 10px;
+        }
+
+        .child1{
+            
+            margin-inline: auto;
+            display: flex;
+            border-radius: 5px;
+            justify-content: center;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box1_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child2{
+            margin-inline: auto;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            height: 160px;
+            margin-left: 40px;
+            /* background-color: gray; */
+            background-image: url(pics/box2_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child3{
+            margin-inline: auto;
+            width: 90%;
+            border-radius: 5px;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box3_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child4{
+            margin-inline: auto;
+            margin-left: 40px;
+            border-radius: 5px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box4_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child5{
+            margin-inline: auto;
+            margin-left: 40px;
+            border-radius: 5px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box5_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child6{
+            margin-inline: auto;
+            margin-left: 40px;
+            border-radius: 5px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box6_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child7{
+            margin-inline: auto;
+            margin-left: 40px;
+            border-radius: 5px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box7_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child8{
+            margin-inline: auto;
+            margin-left: 40px;
+            border-radius: 5px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box8_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child9{
+            margin-left: 50px;
+            border-radius: 5px;
+            margin-inline: auto;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box9_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child10{
+            margin-inline: auto;
+            border-radius: 5px;
+            margin-left: 40px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box10_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child11{
+            margin-inline: auto;
+            border-radius: 5px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box11_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .child12{
+            margin-inline: auto;
+            border-radius: 5px;
+            margin-left: 40px;
+            width: 90%;
+            height: 160px;
+            /* background-color: gray; */
+            background-image: url(pics/box12_image.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+
+        .sub-container{
+            display: flex;
+            width: 90%;
+            height: 90%;
+            flex-direction: column;
+        }
+        .abbu{
+        background-color:lightgray ;
+        margin-top: 10px;
+        }
+.yello img{
+    width: 200px;
+}
+.signin55{
+    background-color:  #e2e7e6;
+   
+}
+.signin23{
+    background-color: white;
+    width: 1272px;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.signin25{
+    background-color: white;
+    width: 1272px;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+.signin26{
+    background-color: #FFC739;
+    border: none;
+    width: 230px;
+    height: 30px;
+ border-radius: 5px;
+ 
+}
+.signin27{
+    background-color: white;
+    width: 1272px;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+   
+}
+
+.signin22{
+    background-color: white;
+    width: 1272px;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    height: 10px;}
+
+    .backtop{
+    width: 100%;
+    background-color:#485769 ;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;  
+    height: 30px;
+    color: white;
+   padding-top: 20px;
+ 
+    }
+    .backtop:hover{ background-color: #1e3149;
+
+    }
+    .lastinfo{
+        background-color: #232F3E;
+        display: flex;
+        justify-content: space-evenly;
+       height: 350px;
+    }
+    .nap00{
+        color: white;
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+    .usd{
+        background-color: #232F3E;
+        margin-top: 0.5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .box88{
+   width: 100px;
+   height: 60px;
+}
+.usdollar1{
+    background-color: #232F3E;
+    color: white;
+    border: 1px solid  #85888D;
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+}
+.last99{
+    width: 100%;
+    height: 420px ;
+    background-color: #131A22;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+}
+.pm6{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.pm9{
+    color: #999999;
+    text-decoration: none;
+}
+
+ </style>
+</head>
+<body>
+
+    <div class="taskbarblack">
+        <!-- box1 of black taskbar -->
+     <div class="box1 ">
+        <div class="amazonpic border">
+          </div>
+                </div>
+                 
+                 <!-- box2 of black taskbar -->
+    
+                 <div class="box2 ">
+                 <div class="location border"> <font size="2px">Deliver to</font> <br>
+                  
+      <div class="location2">   <div>
+        <i class="fa-solid fa-location-dot"></i> </div> <b class="hhh">Pakistan</b></div>
+              </div> 
+           </div>  
+            
+                 <!-- box3 of black taskbar -->
+                <div class="box3">
+                    <select class="select">
+                        <option>All</option>
+                        <option>Location</option>
+                        <option>Shopping</option>  
+                    </select>
+                   <input type="text" class="searchbar" placeholder="Search Amazon"> 
+                 <div class="searchicon">  <i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                 <!-- ox4 of black taskbar -->
+          <div class="box4 ">
+    <select class="language border">
+        <!-- <div class="flag"> <i class="fa-regular fa-flag"></i></div> -->
+        <option> <b> EN</b></option>
+        <option> <b>Pakistan</b></option>
+        <option> <b>USA</b></option>
+    </select>
+          </div> 
+
+          <div class="box5"> 
+            <a href="login.html" style="color: inherit; text-decoration: none;"><div class="signin1 border">Hello, sign in </div></a>
+            <div class="signin2"> <select class="signin2 border"> <option>  <h4>Account & Lists</h4></option></select></div> 
+       </div>  
+    
+      <div class="box6">
+        <div class="orders border">Returns</div>
+        <div class="orders2 border"> <b>       &Orders</b></div>
+    </div>
+    <div class="box7">
+        <div class="cart border"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="cart2 border"><b>Cart</b></div>
+    </div>
+        </div>
+        <div class="bar2">
+            <div class="all"><i class="fa-solid fa-bars"></i>  All </div>
+            <div class="text">
+                <p>Today's Deal</p>
+                <p>Customer</p>
+                <p>Registry</p>
+                <p>Gift Card</p>
+                <p>Sell</p>
+            </div>
+            <div class="shopdeal">Shop deals in Electronics</div>
+        </div>
+        <div class="herosec">
+    <div class="white"><p>You are on amazon.com. You can also shop on Amazon pakistan for millions of products with fast local delivery. <a href=""> Click here to go on amazon.</a> </p></div>
+        </div>
+  
+                    
+      <div style="display: flex; height: 50px; background-color: #007185;"> <a href="page2.html"><button 
+         style="height: 25px; margin-top: 12.5px; margin-left: 580px;">For Details Click here </button> </a></div>
+                   
+
+  <div class="signin55">
+    <div class="signin23"> <br>See personalized recommendations </div>
+    <div class="signin22"></div>
+        <div class="signin25"><a href="login.html"><button class="signin26" style="cursor:pointer;"><b>Sign in</b></button></a></div>
+        <div class="signin22"></div>
+        <div class="signin27">New customer? <a href="login.html">Start Here.</a></div>
+    </div>
+       </div>
+       <div class="signin22"></div>
+      <a href="index.html"> <div class="backtop"><b>Back to the top</b></div></a>
+      <div class="lastinfo">
+        <div class="box101 nap00"><p>
+           <h3> Get to Know Us</h3>
+    Careers <br> <br>
+    Blog <br><br>
+    About Amazon <br><br>
+    Investor Relations <br> <br>
+    Amazon Devices <br><br>
+    Amazon Science <br><br>
+        </p></div>
+        <div class="box102 nap00">
+            <h3>Make Money with Us</h3>
+    Sell products on Amazon <br> <br>
+    Sell on Amazon Business<br> <br>
+    Sell apps on Amazon<br> <br>
+    Become an Affiliate<br> <br>
+    Advertise Your Products<br> <br>
+    Self-Publish with Us<br> <br>
+    Host an Amazon Hub<br> <br>
+        </div>
+        <div class="box103 nap00">
+            <h3>Amazon Payment Products</h3>
+    Amazon Business Card <br> <br>
+    Shop with Points <br> <br>
+    Reload Your Balance <br> <br>
+    Amazon Currency Converter <br> <br>
+        </div>
+        <div class="box104 nap00">
+            <h3>Let Us Help You</h3>
+    Amazon and COVID-19 <br> <br>
+    Your Account <br> <br>
+    Your Orders <br> <br>
+    Shipping Rates & Policies <br> <br>
+    Returns & Replacements <br> <br>
+    Manage Your Content and Devices <br> <br>
+    Amazon Assistant <br> <br>
+    Help <br> <br>
+        </div>
+      </div> 
+      <div class="usd">
+        <div class="box88">
+            <div class="amazonpic border">
+              </div> </div>
+        <div class="usdollar"> <button class="usdollar1">English</button></div>
+        <div class="usdollar"> <button class="usdollar1"> $ USD - U.S. Dollar</button> </div>
+        <div class="usdollar"><button class="usdollar1"> United States</button></div>
+       
+      </div>
+     
+       
+      <div style="display: flex; height: 50px; background-color: #007185;"> <a href="page3.html"><button 
+        style="height: 25px; margin-top: 12.5px; margin-left: 650px;">For queries</button> </a></div>
+                  
+    </body>
+</html>
